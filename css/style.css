@@ -57,11 +57,11 @@ nav li a {
 .landingpage button {
     background-color: #4c6e97;
     color: white;
-    height: 50px;
-    width: 160px;
+    height: 6vh;
+    width: 10vw;
 }
 .landingpage button p {
-    margin-top: 10px;
+    margin-top: 1vh;
     font-size: 2vh;
     display: flex;
     justify-content: center;
