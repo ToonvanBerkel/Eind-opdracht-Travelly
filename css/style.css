@@ -1,0 +1,93 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav {
+    background-color: #131c27;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+nav li a {
+    color: white;
+    font-size: 3vh;
+    margin-right: 7vw;
+}
+.travelly {
+    font-family: Pattaya;
+    font-size: 4vh;
+    left: 0;
+    margin-left: 6vw;
+}
+.li {
+    display: flex;
+    flex-direction: row;
+}
+.landingpage {
+    background-image: url(../picture/landing-page.jpg);
+    background-repeat: none;
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.landingpage h1 {
+    font-size: 5vh;
+    margin-bottom: 5vh;
+}
+.landingpage p {
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.landingpage button {
+    background-color: #4c6e97;
+    color: white;
+    height: 50px;
+    width: 160px;
+}
+.landingpage button p {
+    margin-top: 10px;
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newyorkpage {
+    background-image: url(../picture/new-york-page.png);
+    background-repeat: none;
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    min-height: 100vh;
+}
+.sectionhead {
+    background-color: #131c27;
+    color: white;
+}
+.contactmountain {
+    background-image: url(../picture/contact-mountain.png);
+    background-repeat: none;
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+}
