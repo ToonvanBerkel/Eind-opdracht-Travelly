@@ -24,7 +24,7 @@ nav li a {
     font-size: 3vh;
     margin-right: 7vw;
 }
-.travelly {
+nav .travelly {
     font-family: Pattaya;
     font-size: 4vh;
     left: 0;
@@ -211,7 +211,7 @@ input {
     border-bottom-right-radius: 10px;
 }
 footer {
-    height: 10vh;
+    min-height: 10vh;
     background-color: #131c27;
     display: flex;
     justify-content: space-between;
@@ -221,9 +221,13 @@ footer {
     margin: 0 auto;
     bottom: 0;
 }
-.no {
+footer .travelly {
     font-family: Poppins;
     font-weight: 500;
+    font-size: 4vh;
+    left: 0;
+    margin-left: 6vw;
+    color: white;
 }
 .spaceright {
     margin-right: 20vw;
@@ -233,14 +237,17 @@ footer {
 }
 
 @media screen and (max-width: 660px) {
-    .travelly {
-        margin-left: 35vw;
+    nav .travelly {
+        margin-left: 40vw;
         font-size: 3vh;
         padding-top: 5vh;
     }
     nav li a {
         font-size: 2vh;
-        margin-right: 20vw;
+    }
+    .li {
+        margin-left: 15vw;
+        margin-bottom: 5vh;
     }
     .landingpage {
         background-position-x: 225vw;
@@ -302,5 +309,24 @@ footer {
     .newyorkpage p {
         font-size: 2.4vh;
         margin-right: 10vw;
+    }
+    .contact {
+        width: 80vw;
+        height: 45vh;
+    }
+    .contact h2 {
+        font-size: 4vh;
+    }
+    .contact button{
+        margin-top: 12vh;
+    }
+    input {
+        width: 40vw;
+    }
+    footer .travelly {
+        margin-left: 30vw;
+    }
+    .spaceright {
+        margin-right: 25vw;
     }
 }
