@@ -7,6 +7,7 @@
     list-style: none;
 }
 
+
 nav {
     background-color: #131c27;
     top: 0;
@@ -21,19 +22,20 @@ nav {
 }
 nav li a {
     color: white;
-    font-size: 3vh;
-    margin-right: 7vw;
+    font-size: 25px;
+    margin-right: 130px;
 }
 nav .travelly {
     font-family: Pattaya;
-    font-size: 4vh;
+    font-size: 30px;
     left: 0;
-    margin-left: 6vw;
+    margin-left: 80px;
     color: white;
 }
-.li {
+.ul {
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 .landingpage {
     background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
@@ -48,13 +50,13 @@ nav .travelly {
     color: white;
 }
 .landingpage h1 {
-    font-size: 5vh;
-    margin-bottom: 5vh;
+    font-size: 40px;
+    margin-bottom: 45px;
 }
 .landingpage p {
-    font-size: 3vh;
+    font-size: 25px;
     text-align: center;
-    margin-bottom: 5vh;
+    margin-bottom: 42px;
 }
 button {
     border: none;
@@ -73,8 +75,8 @@ button {
     width: 12vw;
 }
 .landingpage button p {
-    margin-top: 5vh;
-    font-size: 2vh;
+    margin-top: 40px;
+    font-size: 15px;
     display: flex;
     background-size: cover;
     justify-content: center;
@@ -93,19 +95,19 @@ button {
 .newyorkpage header {
     border-color: white;
     border-bottom-style: solid;
-    border-bottom-width: 0.5vh;
-    width: 25vw;
-    margin-left: 4vw;
+    border-bottom-width: 5px;
+    width: 24vw;
+    margin-left: 60px;
 }
 .newyorkpage h2 {
-    font-size: 6vh; 
+    font-size: 45px; 
     font-weight: 500;
 }
 .newyorkpage p {
-    font-size: 3vh; 
+    font-size: 25px; 
     font-weight: 500;
-    margin-left: 4vw;
-    margin-top: 4vh;
+    margin-left: 60px;
+    margin-top: 40px;
 }
 .newyork {
     background-image: linear-gradient(gray, white);
@@ -123,10 +125,10 @@ button {
     flex-direction: column;
 }
 .sectionhead h2 {
-    font-size: 5vh;
+    font-size: 40px;
 }
 .sectionhead p {
-    font-size: 3.2vh;
+    font-size: 25px;
     text-align: center;
 }
 .row {
@@ -141,29 +143,29 @@ button {
     flex-direction: column;
     box-shadow: 0px 0px 10px 1px rgb(210, 210, 210);
     min-width: 25vw;
-    min-height: 50vh;
+    min-height: 55vh;
     overflow: hidden;
 }
 .mini {
     width: 3vw;
     height: auto;
     background-color: #131c27;
-    padding: 2vh 11vw 2vh 11vw;
+    padding: 40px 188px 20px 188px;
 }
 .column h3 {
     display: flex;
     justify-content: center;
-    margin-top: 3vh;
-    font-size: 3vh;
+    margin-top: 25px;
+    font-size: 25px;
     font-weight: 600;
 }
 .column p {
     text-align: center;
     width: 21vw;
     display: flex;
-    margin-top: 8vh;
-    margin-left: 2vw;
-    font-size: 2.5vh;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 20px;
 }
 .contactmountain {
     background-image: url(../picture/contact-mountain.png);
@@ -185,28 +187,28 @@ button {
     flex-direction: column;
 }
 .contact h2 {
-    font-size: 5vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    font-weight: 500;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 600;
 }
 label {
-    margin-right: 1vw;
+    margin-right: 30px;
 }
 input {
     width: 13vw;
     height: 4vh;
 }
 .space {
-    margin-bottom: 5vh;
+    margin-bottom: 45px;
 }
 .contact button{
     background-color: #4c6e97;
     width: 100%;
     height: 5vh;
-    padding: 3vh 0 3vh 0;
+    padding: 25px 0 25px 0;
     color: white;
-    margin-top: 19vh;
+    margin-top: 140px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -223,41 +225,43 @@ footer {
 }
 footer .travelly {
     font-family: Poppins;
-    font-weight: 500;
-    font-size: 4vh;
+    font-weight: 600;
+    font-size: 30px;
     left: 0;
-    margin-left: 6vw;
+    margin-left: 80px;
     color: white;
 }
 .spaceright {
-    margin-right: 20vw;
+    margin-right: 400px;
 }
 .lessspace {
-    margin-right: 7vw;
+    margin-right: 80px;
 }
 
 @media screen and (max-width: 660px) {
     nav .travelly {
-        margin-left: 40vw;
-        font-size: 3vh;
-        padding-top: 5vh;
+        margin-left: 170px;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
     nav li a {
-        font-size: 2vh;
+        font-size: 15px;
+        margin-right: 50px;
     }
-    .li {
-        margin-left: 15vw;
-        margin-bottom: 5vh;
+    .ul {
+        margin-left: 60px;
+        margin-bottom: 20px;
     }
     .landingpage {
         background-position-x: 225vw;
     }
     .landingpage h1 {
         text-align: center;
-        font-size: 3.4vh;
+        font-size: 25px;
     }
     .landingpage p {
-        font-size: 2.5vh;
+        font-size: 20px;
         width: 80vw;
     }
     .landingpage button {
@@ -265,68 +269,74 @@ footer .travelly {
         height: 7vh;
     }
     .landingpage button p {
-        font-size: 2vh;
+        font-size: 15px;
     }
     .section {
-        height: 215vh;
+        height: 230vh;
     }
     .row {
         flex-direction: column;
-        margin-top: 60vh;
+        margin-top: 600px;
     }
     .mini {
-        padding: 2vh 33.5vw 2vh 33.5vw;
+        padding: 20px 132px 20px 132px;
         width: 13vw;
     }
     .column {
-        margin-bottom: 10vh;
+        margin-bottom: 100px;
         width: 80vw;
     }
     .column p {
         text-align: center;
-        font-size: 2vh;
+        font-size: 18px;
         width: 75vw;  
+        margin-left: 12px;
     }
     .sectionhead {
         height: auto;
     }
     .sectionhead h2 { 
         flex-wrap: wrap;
-        font-size: 4vh;
+        font-size: 32px;
         text-align: center;
-        margin-top: 5vh;
+        margin-top: 35px;
     }
     .sectionhead p {
-        font-size: 2.6vh;
+        font-size: 20px;
         width: 80vw;
         padding-bottom: 40px;
     }
+    .newyorkpage header {
+        margin-left: 20px;
+        width: 270px;
+    }
     .newyorkpage h2 {
-        font-size: 4vh; 
+        font-size: 34px; 
         font-weight: 500;
         width: 70vw;
     }
     .newyorkpage p {
-        font-size: 2.4vh;
-        margin-right: 10vw;
+        font-size: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     .contact {
         width: 80vw;
         height: 45vh;
     }
     .contact h2 {
-        font-size: 4vh;
+        font-size: 35px;
     }
     .contact button{
-        margin-top: 12vh;
+        margin-top: 80px;
     }
     input {
         width: 40vw;
     }
     footer .travelly {
-        margin-left: 30vw;
+        margin-left: 120px;
     }
     .spaceright {
-        margin-right: 25vw;
+        margin-right: 100px;
     }
 }
